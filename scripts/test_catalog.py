@@ -66,6 +66,15 @@ for bad_url in ['http://s.click.aliexpress.com/e/x', 'https://aliexpress.com.evi
     else:
         raise AssertionError('Unsafe shop URL accepted: ' + bad_url)
 
+twice = json.loads(json.dumps(added))
+twice['products'][0]['offers'].append({**twice['products'][0]['offers'][0], 'option': '다른 옵션'})
+try:
+    validate(twice)
+except AssertionError:
+    pass
+else:
+    raise AssertionError('Same creator listed twice for one product')
+
 with tempfile.TemporaryDirectory() as directory:
     path = Path(directory) / 'catalog.json'
     write_data(added, path)

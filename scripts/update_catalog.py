@@ -29,13 +29,13 @@ def aliexpress_url(value):
 def validate(data):
     assert set(data) == {'updated_at', 'videos', 'products'}, 'Unexpected catalog fields'
     datetime.fromisoformat(data['updated_at'])
-    ids = set()
+    ids = {}
     for video in data['videos']:
         assert set(video) == {'id', 'channel', 'checked_at'}
         assert re.fullmatch(r'[A-Za-z0-9_-]{11}', video['id']) and video['id'] not in ids
         assert isinstance(video['channel'], str) and video['channel'].strip()
         datetime.fromisoformat(video['checked_at'])
-        ids.add(video['id'])
+        ids[video['id']] = video['channel']
     names = set()
     for product in data['products']:
         assert set(product) == {'category', 'name', 'offers'}
@@ -43,7 +43,7 @@ def validate(data):
         assert allowed(product['name'], product['category']), product['name']
         assert product['offers'], product['name']
         names.add(product['name'])
-        offers = set()
+        channels = set()
         for offer in product['offers']:
             assert {'video_id', 'time', 'price', 'code'} <= set(offer) <= {'video_id', 'time', 'price', 'option', 'code', 'code_url', 'code_note', 'url'}
             assert offer['video_id'] in ids
@@ -57,9 +57,9 @@ def validate(data):
                 assert offer['code'] and u.scheme == 'https' and u.hostname and not u.username and not u.password
             if 'url' in offer:
                 assert aliexpress_url(offer['url']), offer['url']
-            key = (offer['video_id'], offer['time'], offer.get('option', ''))
-            assert key not in offers, (product['name'], key)
-            offers.add(key)
+            # one row per creator per product: the newest video wins, extra option rows are dropped
+            assert ids[offer['video_id']] not in channels, (product['name'], ids[offer['video_id']])
+            channels.add(ids[offer['video_id']])
 
 
 def apply_video(data, snapshot):
