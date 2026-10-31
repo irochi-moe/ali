@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T00:03:00+09:00",
+  "updated_at": "2026-11-01T00:13:00+09:00",
   "videos": [
     {
       "id": "L1GSXGMzcoI",
@@ -20,11 +20,6 @@
       "id": "bH9otT6LjmI",
       "channel": "영디비",
       "checked_at": "2026-10-31T23:24:36.670869+09:00"
-    },
-    {
-      "id": "xhkgg4s7wyg",
-      "channel": "승업키보드",
-      "checked_at": "2026-10-31T23:24:37.430210+09:00"
     },
     {
       "id": "zzbubIFwPXM",
@@ -162,11 +157,6 @@
       "checked_at": "2026-11-01T00:03:00+09:00"
     },
     {
-      "id": "W24bPBTj-eY",
-      "channel": "돠스",
-      "checked_at": "2026-11-01T00:03:00+09:00"
-    },
-    {
       "id": "XLSnD3k66t8",
       "channel": "체험판 굿즈",
       "checked_at": "2026-11-01T00:03:00+09:00"
@@ -245,6 +235,16 @@
       "id": "vWBaUAS8eVI",
       "channel": "셀링포인트",
       "checked_at": "2026-11-01T00:03:00+09:00"
+    },
+    {
+      "id": "xhkgg4s7wyg",
+      "channel": "승업키보드",
+      "checked_at": "2026-11-01T00:08:00+09:00"
+    },
+    {
+      "id": "W24bPBTj-eY",
+      "channel": "돠스",
+      "checked_at": "2026-11-01T00:13:00+09:00"
     }
   ],
   "products": [
@@ -255,8 +255,9 @@
         {
           "video_id": "xhkgg4s7wyg",
           "time": "26:20",
-          "price": "40만 원대 중반",
-          "code": ""
+          "price": "약 $373(코드 적용, 카드 할인 전)",
+          "code": "UPKBD18",
+          "code_note": "선착순 20개"
         }
       ]
     },
@@ -533,12 +534,6 @@
           "code": ""
         },
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "25:21",
-          "price": "20만 원대 후반",
-          "code": ""
-        },
-        {
           "video_id": "BAfduTCF454",
           "time": null,
           "price": "$240.15(코드 적용, 카드 할인 전)",
@@ -597,6 +592,13 @@
           "code": "SELLP021",
           "option": "G3 Ultra / 16GB RAM 512GB ROM / EU",
           "code_note": "$63 할인, 선착순 20장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "25:21",
+          "price": "약 $218(코드 적용, 카드 할인 전)",
+          "code": "UPKBD30",
+          "code_note": "선착순 50개, 예비코드 JGGB17"
         }
       ]
     },
@@ -795,12 +797,6 @@
       "name": "GMKtec M8 미니 PC",
       "offers": [
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "24:12",
-          "price": "20만 원대 초반",
-          "code": ""
-        },
-        {
           "video_id": "BAfduTCF454",
           "time": "02:34",
           "price": "$170.56(코드 적용, 카드 할인 전)",
@@ -897,6 +893,13 @@
           "code": "SELLP002",
           "option": "Ryzen 5 PRO 6650H / LPDDR5 16GB NO SSD / EU",
           "code_note": "$45 할인, 선착순 500장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "24:12",
+          "price": "약 $149(코드 적용, 카드 할인 전)",
+          "code": "UPKBD31",
+          "code_note": "선착순 50개"
         }
       ]
     },
@@ -937,18 +940,13 @@
           "code": "KIMT017",
           "code_note": "선착순 100개",
           "option": "24GB·512GB"
-        }
-      ]
-    },
-    {
-      "category": "미니 PC·노트북",
-      "name": "NiPoGi 미니 PC (모델 미확인)",
-      "offers": [
+        },
         {
           "video_id": "xhkgg4s7wyg",
           "time": "25:43",
-          "price": "40만 원대 중반",
-          "code": ""
+          "price": "약 $381.29(코드 적용, 카드 할인 전)",
+          "code": "UPKBD19",
+          "code_note": "선착순 20개"
         }
       ]
     },
@@ -969,12 +967,6 @@
       "category": "미니 PC·노트북",
       "name": "Ninkear S14 노트북",
       "offers": [
-        {
-          "video_id": "xhkgg4s7wyg",
-          "time": "28:27",
-          "price": "50만 원대 후반",
-          "code": ""
-        },
         {
           "video_id": "Ch490tgjYdQ",
           "time": "00:43",
@@ -1005,6 +997,13 @@
           "code": "BALPUM033",
           "option": "실버, 16GB / 512GB",
           "code_note": "선착순 150장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "28:27",
+          "price": "약 $443(코드 적용, 카드 할인 전)",
+          "code": "UPKBD17",
+          "code_note": "선착순 20개"
         }
       ]
     },
@@ -1220,8 +1219,9 @@
         {
           "video_id": "xhkgg4s7wyg",
           "time": "31:01",
-          "price": "7만 원대",
-          "code": ""
+          "price": "약 $57(코드 적용, 카드 할인 전)",
+          "code": "UPKBD28",
+          "code_note": "선착순 50개, 예비코드 JGGB16"
         }
       ]
     },
@@ -1315,12 +1315,6 @@
           "code": ""
         },
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "29:57",
-          "price": "10만 원대 초반",
-          "code": ""
-        },
-        {
           "video_id": "WfdA0lSMT5w",
           "time": "06:16",
           "price": "",
@@ -1345,6 +1339,13 @@
           "time": null,
           "price": "$102.00(코드 적용, 카드 할인 전)",
           "code": "SAYADNA15"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "29:57",
+          "price": "약 $82(코드 적용, 카드 할인 전)",
+          "code": "UPKBD29",
+          "code_note": "선착순 50개"
         }
       ]
     },
@@ -1449,14 +1450,6 @@
           "code": ""
         },
         {
-          "video_id": "W24bPBTj-eY",
-          "time": "05:10",
-          "price": "$316.23(코드 적용, 카드 할인 전·관부가세 별도)",
-          "option": "12GB 256GB Black",
-          "code": "DWAS006",
-          "code_note": "KB VISA 적용 시 $294.23"
-        },
-        {
           "video_id": "YCZe4ILVwcM",
           "time": null,
           "price": "$316.23(코드 적용, 카드 할인 전)",
@@ -1498,6 +1491,14 @@
           "price": "약 $316.23(코드 적용, $150 초과 시 부가세 별도)",
           "code": "PLAYSIN31",
           "code_note": "선착순 200장"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "05:10",
+          "price": "$316.23(코드 적용, 카드 할인 전·관부가세 별도)",
+          "option": "12GB 256GB Black",
+          "code": "DWAS006",
+          "code_note": "선착순 100개, KB VISA 적용 시 $294.23"
         }
       ]
     },
@@ -1525,14 +1526,6 @@
           "time": null,
           "price": "$380.20(12GB/256GB Black, 코드 적용, 카드 할인 전·관세 별도)",
           "code": "SAYADNA12"
-        },
-        {
-          "video_id": "W24bPBTj-eY",
-          "time": "06:04",
-          "price": "$380.20(코드 적용, 카드 할인 전·관부가세 별도)",
-          "option": "12GB 256GB Black",
-          "code": "DWAS007",
-          "code_note": "KB VISA 적용 시 $358.20"
         },
         {
           "video_id": "XLSnD3k66t8",
@@ -1574,6 +1567,14 @@
           "price": "약 $380.20(코드 적용, $150 초과 시 부가세 별도)",
           "code": "PLAYSIN32",
           "code_note": "선착순 100장"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "06:04",
+          "price": "$380.20(코드 적용, 카드 할인 전·관부가세 별도)",
+          "option": "12GB 256GB Black",
+          "code": "DWAS007",
+          "code_note": "선착순 50개, KB VISA 적용 시 $358.20"
         }
       ]
     },
@@ -1614,19 +1615,19 @@
           "option": "8GB·128GB"
         },
         {
-          "video_id": "W24bPBTj-eY",
-          "time": "01:20",
-          "price": "$100.48(코드 적용, 카드 할인 전)",
-          "option": "6 128 Gray",
-          "code": "DWAS001",
-          "code_note": "우리 VISA 적용 시 $80.48"
-        },
-        {
           "video_id": "rBJlswLESQY",
           "time": "00:38:14",
           "price": "약 $100.48(코드 적용)",
           "code": "PLAYSIN34",
           "code_note": "선착순 300장"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "01:20",
+          "price": "$100.48(코드 적용, 카드 할인 전)",
+          "option": "6 128 Gray",
+          "code": "DWAS001",
+          "code_note": "선착순 100개, 우리 VISA 적용 시 $80.48"
         }
       ]
     },
@@ -1634,14 +1635,6 @@
       "category": "태블릿·스마트폰·웨어러블",
       "name": "레노버 샤오신패드 Pro 12.7 2025 태블릿",
       "offers": [
-        {
-          "video_id": "W24bPBTj-eY",
-          "time": "02:50",
-          "price": "$145.11(코드 적용, 카드 할인 전)",
-          "option": "pad, 8 128GB Gray",
-          "code": "DWAS003",
-          "code_note": "우리 VISA 적용 시 $125.11"
-        },
         {
           "video_id": "hKNSt32y7pI",
           "time": null,
@@ -1656,6 +1649,14 @@
           "price": "약 $145.11(코드 적용)",
           "code": "PLAYSIN33",
           "code_note": "선착순 300장"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "02:50",
+          "price": "$145.11(코드 적용, 카드 할인 전)",
+          "option": "pad, 8 128GB Gray",
+          "code": "DWAS003",
+          "code_note": "선착순 100개, 우리 VISA 적용 시 $125.11"
         }
       ]
     },
@@ -1756,14 +1757,6 @@
           "code": ""
         },
         {
-          "video_id": "W24bPBTj-eY",
-          "time": "03:36",
-          "price": "$200.98(코드 적용, 카드 할인 전·관부가세 별도)",
-          "option": "8 128 gray",
-          "code": "DWAS004",
-          "code_note": "KB VISA 적용 시 $178.98"
-        },
-        {
           "video_id": "YCZe4ILVwcM",
           "time": null,
           "price": "$200.98(코드 적용, 카드 할인 전)",
@@ -1820,6 +1813,14 @@
           "price": "약 $200.98(코드 적용, $150 초과 시 부가세 별도)",
           "code": "PLAYSIN30",
           "code_note": "선착순 300장"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "03:36",
+          "price": "$200.98(코드 적용, 카드 할인 전·관부가세 별도)",
+          "option": "8 128 gray",
+          "code": "DWAS004",
+          "code_note": "선착순 100개, KB VISA 적용 시 $178.98"
         }
       ]
     },
@@ -1860,14 +1861,6 @@
           "code": ""
         },
         {
-          "video_id": "W24bPBTj-eY",
-          "time": "02:05",
-          "price": "$196.51(코드 적용, 카드 할인 전·관부가세 별도)",
-          "option": "8G 256GB WIFI Grey",
-          "code": "DWAS002",
-          "code_note": "KB VISA 적용 시 $174.51"
-        },
-        {
           "video_id": "dbwfmd-HFF4",
           "time": "02:59",
           "price": "$196.51(코드 적용, 카드 할인 전)",
@@ -1880,6 +1873,14 @@
           "option": "8GB/256GB",
           "code": "HLBS06",
           "code_note": "선착순 200개"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "02:05",
+          "price": "$196.51(코드 적용, 카드 할인 전·관부가세 별도)",
+          "option": "8G 256GB WIFI Grey",
+          "code": "DWAS002",
+          "code_note": "선착순 100개, KB VISA 적용 시 $174.51"
         }
       ]
     },
@@ -1891,12 +1892,6 @@
           "video_id": "L1GSXGMzcoI",
           "time": "0:30",
           "price": "",
-          "code": ""
-        },
-        {
-          "video_id": "xhkgg4s7wyg",
-          "time": "29:35",
-          "price": "30만 원대 중반",
           "code": ""
         },
         {
@@ -1935,14 +1930,6 @@
           "code": ""
         },
         {
-          "video_id": "W24bPBTj-eY",
-          "time": "04:31",
-          "price": "$280.85(코드 적용, 카드 할인 전·관부가세 별도)",
-          "option": "8G 256G Grey",
-          "code": "DWAS005",
-          "code_note": "KB VISA 적용 시 $258.85"
-        },
-        {
           "video_id": "XLSnD3k66t8",
           "time": "12:11",
           "price": "$280.85(8GB/256GB, 코드 적용, 카드 할인 전·관세 별도)",
@@ -1975,6 +1962,21 @@
           "time": "05:37",
           "price": "30만 원대 중반",
           "code": ""
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "29:35",
+          "price": "약 $259(코드 적용, 카드 할인 전)",
+          "code": "UPKBD10",
+          "code_note": "선착순 30개"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "04:31",
+          "price": "$280.85(코드 적용, 카드 할인 전·관부가세 별도)",
+          "option": "8G 256G Grey",
+          "code": "DWAS005",
+          "code_note": "선착순 100개, KB VISA 적용 시 $258.85"
         }
       ]
     },
@@ -2199,12 +2201,6 @@
           "code": ""
         },
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "23:47",
-          "price": "20만 원대 중반",
-          "code": ""
-        },
-        {
           "video_id": "WfdA0lSMT5w",
           "time": "10:59",
           "price": "",
@@ -2256,6 +2252,13 @@
           "price": "약 $221.83(코드 적용, $150 초과 시 부가세 별도)",
           "code": "PLAYSIN37",
           "code_note": "선착순 200장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "23:47",
+          "price": "약 $198(코드 적용, 카드 할인 전)",
+          "code": "UPKBD32",
+          "code_note": "선착순 50개"
         }
       ]
     },
@@ -2299,12 +2302,6 @@
           "video_id": "L1GSXGMzcoI",
           "time": "3:43",
           "price": "",
-          "code": ""
-        },
-        {
-          "video_id": "xhkgg4s7wyg",
-          "time": "23:47",
-          "price": "30만 원대 후반",
           "code": ""
         },
         {
@@ -2373,6 +2370,13 @@
           "price": "약 $317.68(코드 2개 적용, $150 초과 시 부가세 별도)",
           "code": "PLAYSIN38",
           "code_note": "+AMDR79800X3D($4), 선착순 200장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "23:47",
+          "price": "약 $296(코드 적용, 카드 할인 전)",
+          "code": "UPKBD33",
+          "code_note": "선착순 50개"
         }
       ]
     },
@@ -3097,8 +3101,9 @@
         {
           "video_id": "xhkgg4s7wyg",
           "time": "21:50",
-          "price": "7만 원대",
-          "code": ""
+          "price": "약 $54(코드 적용, 카드 할인 전)",
+          "code": "UPKBD27",
+          "code_note": "선착순 50개"
         }
       ]
     },
@@ -3106,12 +3111,6 @@
       "category": "인클로저·스토리지 어댑터",
       "name": "UGREEN 20Gbps M.2 SSD 인클로저",
       "offers": [
-        {
-          "video_id": "xhkgg4s7wyg",
-          "time": "22:26",
-          "price": "2만 원대",
-          "code": ""
-        },
         {
           "video_id": "23PyfsiV7B0",
           "time": "00:28",
@@ -3132,6 +3131,13 @@
           "price": "$19.99(쿠폰·코드 적용)",
           "code": "MBLAB18",
           "code_note": "스토어쿠폰 KRSSD12 먼저"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "22:26",
+          "price": "약 $20(코드 적용, 카드 할인 전)",
+          "code": "UPKBD20",
+          "code_note": "선착순 50개"
         }
       ]
     },
@@ -3655,8 +3661,9 @@
         {
           "video_id": "xhkgg4s7wyg",
           "time": "31:59",
-          "price": "20만 원대 후반",
-          "code": ""
+          "price": "약 326,000원(코드 적용, 카드 할인 전)",
+          "code": "UPKBD34",
+          "code_note": "선착순 50개"
         }
       ]
     },
@@ -4090,12 +4097,6 @@
           "code": ""
         },
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "09:59",
-          "price": "10만 원대 초반",
-          "code": ""
-        },
-        {
           "video_id": "WfdA0lSMT5w",
           "time": "13:41",
           "price": "",
@@ -4183,6 +4184,13 @@
           "price": "약 $120.98(코드 적용)",
           "code": "PLAYSIN01",
           "code_note": "선착순 200장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "09:59",
+          "price": "약 $101(코드 적용, 카드 할인 전)",
+          "code": "UPKBD13",
+          "code_note": "선착순 100개, 예비코드 JGGB05"
         }
       ]
     },
@@ -4209,12 +4217,6 @@
       "category": "오디오",
       "name": "Edifier MR4 MK2 스피커",
       "offers": [
-        {
-          "video_id": "xhkgg4s7wyg",
-          "time": "12:54",
-          "price": "9만 원대",
-          "code": ""
-        },
         {
           "video_id": "WfdA0lSMT5w",
           "time": "13:06",
@@ -4303,6 +4305,13 @@
           "code": "SELLP006",
           "option": "China Mainland / White",
           "code_note": "$8.5 할인, 선착순 100장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "12:54",
+          "price": "약 $73(코드 적용, 카드 할인 전)",
+          "code": "UPKBD01",
+          "code_note": "선착순 100개, 예비코드 JGGB04"
         }
       ]
     },
@@ -5539,12 +5548,6 @@
       "name": "Baseus 45W Mini 보조배터리 10,000mAh",
       "offers": [
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "14:22",
-          "price": "2만 원대",
-          "code": ""
-        },
-        {
           "video_id": "WfdA0lSMT5w",
           "time": "00:33",
           "price": "",
@@ -5652,6 +5655,13 @@
           "code": "SELLP003",
           "option": "China Mainland / 45W Black / 10,000mAh",
           "code_note": "$4.5 할인, 선착순 200장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "14:22",
+          "price": "약 $20(코드 적용, 카드 할인 전)",
+          "code": "UPKBD04",
+          "code_note": "선착순 100개, 스토어 쿠폰 KRVIP1"
         }
       ]
     },
@@ -5659,12 +5669,6 @@
       "category": "보조배터리·충전기·허브",
       "name": "Baseus EnerCore CG11 70W 여행용 어댑터",
       "offers": [
-        {
-          "video_id": "xhkgg4s7wyg",
-          "time": "14:54",
-          "price": "3만 원대",
-          "code": ""
-        },
         {
           "video_id": "LQ_t8zj35cU",
           "time": "04:05",
@@ -5691,6 +5695,13 @@
           "time": "05:17",
           "price": "",
           "code": ""
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "14:54",
+          "price": "약 $23(코드 적용, 카드 할인 전)",
+          "code": "UPKBD05",
+          "code_note": "선착순 100개, 스토어 쿠폰 KR111SD"
         }
       ]
     },
@@ -5855,19 +5866,19 @@
           "code": ""
         },
         {
-          "video_id": "W24bPBTj-eY",
-          "time": "08:50",
-          "price": "$24.70(스토어 쿠폰·자동할인+코드 적용)",
-          "option": "KR GaN 100W",
-          "code": "DWAS011",
-          "code_note": "스토어 쿠폰 KRNOV02 함께"
-        },
-        {
           "video_id": "rBJlswLESQY",
           "time": "00:53:48",
           "price": "약 $24.70(코드 2개 적용)",
           "code": "PLAYSIN16",
           "code_note": "+KRNOV02($4), 선착순 300장"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "08:50",
+          "price": "$24.70(스토어 쿠폰·자동할인+코드 적용)",
+          "option": "KR GaN 100W",
+          "code": "DWAS011",
+          "code_note": "선착순 100개, 스토어 쿠폰 KRNOV02 함께"
         }
       ]
     },
@@ -5903,19 +5914,19 @@
           "code_note": "$9 할인"
         },
         {
-          "video_id": "W24bPBTj-eY",
-          "time": "09:23",
-          "price": "$31.17(스토어 쿠폰·자동할인+코드 적용)",
-          "option": "KR GaN 160W",
-          "code": "DWAS012",
-          "code_note": "스토어 쿠폰 KRNOV01 함께"
-        },
-        {
           "video_id": "rBJlswLESQY",
           "time": "00:53:48",
           "price": "약 $31.17(코드 2개 적용)",
           "code": "PLAYSIN40",
           "code_note": "+KRNOV01($3), 선착순 300장"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "09:23",
+          "price": "$31.17(스토어 쿠폰·자동할인+코드 적용)",
+          "option": "KR GaN 160W",
+          "code": "DWAS012",
+          "code_note": "선착순 100개, 스토어 쿠폰 KRNOV01 함께"
         }
       ]
     },
@@ -5957,7 +5968,7 @@
           "price": "$44.65(스토어 쿠폰·자동할인+코드 적용)",
           "option": "165W",
           "code": "DWAS013",
-          "code_note": "스토어 쿠폰 NEX007 함께"
+          "code_note": "선착순 100개, 스토어 쿠폰 NEX007 함께"
         }
       ]
     },
@@ -5981,19 +5992,19 @@
           "code_note": "스토어쿠폰 KRNOV01 먼저"
         },
         {
-          "video_id": "W24bPBTj-eY",
-          "time": "09:57",
-          "price": "$36.29(스토어 쿠폰·자동할인+코드 적용)",
-          "option": "KR GaN 200W",
-          "code": "DWAS016",
-          "code_note": "스토어 쿠폰 KRNOV01 함께"
-        },
-        {
           "video_id": "_eoIzuZK8Js",
           "time": "10:59",
           "price": "",
           "code": "DIRECT010",
           "code_note": "선착순 100장"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "09:57",
+          "price": "$36.29(스토어 쿠폰·자동할인+코드 적용)",
+          "option": "KR GaN 200W",
+          "code": "DWAS016",
+          "code_note": "선착순 100개, 스토어 쿠폰 KRNOV01 함께"
         }
       ]
     },
@@ -6041,12 +6052,6 @@
       "name": "UGREEN 4-in-1 HDMI KVM 스위치",
       "offers": [
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "21:11",
-          "price": "5만 원대",
-          "code": ""
-        },
-        {
           "video_id": "PqlDttEmB6k",
           "time": "06:19",
           "price": "$41.11(스토어 쿠폰·코드 적용, 카드 할인 전)",
@@ -6069,6 +6074,13 @@
           "code": "SELLP020",
           "option": "4 in 1 out",
           "code_note": "$9 할인, 선착순 100장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "21:11",
+          "price": "약 $41(코드 적용, 카드 할인 전)",
+          "code": "UPKBD26",
+          "code_note": "선착순 50개"
         }
       ]
     },
@@ -6132,12 +6144,6 @@
       "name": "UGREEN 45W 보조배터리 (세부 모델 미확인)",
       "offers": [
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "18:19",
-          "price": "4만 원대",
-          "code": ""
-        },
-        {
           "video_id": "PqlDttEmB6k",
           "time": "13:18",
           "price": "$44.99(코드 적용, 카드 할인 전)",
@@ -6160,6 +6166,13 @@
           "code": "SELLP019",
           "option": "China Mainland / Sliver 10,000mAh / 10,000mAh",
           "code_note": "$10 할인, 선착순 20장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "18:19",
+          "price": "약 $35(코드 적용, 카드 할인 전)",
+          "code": "UPKBD24",
+          "code_note": "선착순 50개"
         }
       ]
     },
@@ -6191,18 +6204,6 @@
     },
     {
       "category": "보조배터리·충전기·허브",
-      "name": "UGREEN MagFlow Air 보조배터리 (용량 확인)",
-      "offers": [
-        {
-          "video_id": "xhkgg4s7wyg",
-          "time": "17:23",
-          "price": "5만 원대",
-          "code": ""
-        }
-      ]
-    },
-    {
-      "category": "보조배터리·충전기·허브",
       "name": "UGREEN MagFlow Air 보조배터리 10,000mAh",
       "offers": [
         {
@@ -6227,6 +6228,13 @@
           "option": "유선 30W·무선 Qi2 25W·내장 USB-C 케이블",
           "code": "HLBS17",
           "code_note": "스토어코드 MAGA07 수집 필수, 선착순 150개"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "17:23",
+          "price": "약 $38(코드 적용, 카드 할인 전)",
+          "code": "UPKBD22",
+          "code_note": "선착순 50개"
         }
       ]
     },
@@ -6350,8 +6358,9 @@
         {
           "video_id": "xhkgg4s7wyg",
           "time": "18:48",
-          "price": "7만 원대",
-          "code": ""
+          "price": "약 $52(코드 적용, 카드 할인 전)",
+          "code": "UPKBD23",
+          "code_note": "선착순 50개, 예비코드 JGGB15"
         }
       ]
     },
@@ -6404,7 +6413,7 @@
           "price": "$33.18(스토어 쿠폰+코드 적용)",
           "option": "White",
           "code": "DWAS014",
-          "code_note": "스토어 쿠폰 MAG005 함께"
+          "code_note": "선착순 200개, 스토어 쿠폰 MAG005 함께"
         }
       ]
     },
@@ -6767,12 +6776,6 @@
       "name": "AULA F108 Pro V2 키보드",
       "offers": [
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "01:26",
-          "price": "5만 원대",
-          "code": ""
-        },
-        {
           "video_id": "KXTLWy9yGtQ",
           "time": "00:20",
           "price": "",
@@ -6797,6 +6800,13 @@
           "price": "$49.43(코드 적용, 카드 할인 전)",
           "code": "BALPUM017",
           "code_note": "선착순 300장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "01:26",
+          "price": "약 $42(코드 적용, 카드 할인 전)",
+          "code": "UPKBD02",
+          "code_note": "선착순 100개"
         }
       ]
     },
@@ -6804,12 +6814,6 @@
       "category": "키보드·마우스·게임패드",
       "name": "AULA F108 Pro 키보드",
       "offers": [
-        {
-          "video_id": "xhkgg4s7wyg",
-          "time": "02:10",
-          "price": "5만 원대",
-          "code": ""
-        },
         {
           "video_id": "WfdA0lSMT5w",
           "time": "03:16",
@@ -6830,6 +6834,13 @@
           "price": "$39.00(코드 적용)",
           "code": "KIMT009",
           "code_note": "선착순 300개"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "02:10",
+          "price": "약 $40(코드 적용, 카드 할인 전)",
+          "code": "UPKBD06",
+          "code_note": "선착순 100개"
         }
       ]
     },
@@ -6840,8 +6851,9 @@
         {
           "video_id": "xhkgg4s7wyg",
           "time": "00:38",
-          "price": "5만 원대",
-          "code": ""
+          "price": "약 $36(코드 적용, 카드 할인 전)",
+          "code": "UPKBD14",
+          "code_note": "선착순 200개, 예비코드 JGGB07"
         }
       ]
     },
@@ -7011,8 +7023,9 @@
         {
           "video_id": "xhkgg4s7wyg",
           "time": "07:30",
-          "price": "7만 원대",
-          "code": ""
+          "price": "약 $58(코드 적용, 카드 할인 전)",
+          "code": "UPKBD03",
+          "code_note": "선착순 100개"
         }
       ]
     },
@@ -7254,8 +7267,9 @@
         {
           "video_id": "xhkgg4s7wyg",
           "time": "03:28",
-          "price": "6만 원대",
-          "code": ""
+          "price": "약 $50(코드 적용, 카드 할인 전)",
+          "code": "UPKBD11",
+          "code_note": "선착순 100개"
         }
       ]
     },
@@ -7402,12 +7416,6 @@
       "name": "로지텍 G PRO X SUPERLIGHT 2 마우스",
       "offers": [
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "05:39",
-          "price": "8만 원대",
-          "code": ""
-        },
-        {
           "video_id": "LQ_t8zj35cU",
           "time": "06:12",
           "price": "10만 원 안팎",
@@ -7435,6 +7443,13 @@
           "code": "BALPUM019",
           "option": "블랙",
           "code_note": "선착순 200장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "05:39",
+          "price": "약 $67(코드 적용, 카드 할인 전)",
+          "code": "UPKBD07",
+          "code_note": "선착순 100개"
         }
       ]
     },
@@ -7443,16 +7458,17 @@
       "name": "로지텍 G PRO X2 SUPERSTRIKE 마우스",
       "offers": [
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "05:04",
-          "price": "10만 원대 중반",
-          "code": ""
-        },
-        {
           "video_id": "XLSnD3k66t8",
           "time": "04:26",
           "price": "$143.76(White, 코드 적용, 카드 할인 전)",
           "code": "GOODS004"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "05:04",
+          "price": "약 $124(코드 적용, 카드 할인 전)",
+          "code": "UPKBD09",
+          "code_note": "선착순 100개"
         }
       ]
     },
@@ -7461,17 +7477,18 @@
       "name": "로지텍 G304 X 마우스",
       "offers": [
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "06:00",
-          "price": "3만 원대",
-          "code": ""
-        },
-        {
           "video_id": "CoPsmHxoBEY",
           "time": "08:47",
           "price": "$23.31(코드 적용, 카드 할인 전)",
           "code": "JALAL20",
           "code_note": "선착순 100장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "06:00",
+          "price": "약 $23(코드 적용, 카드 할인 전)",
+          "code": "UPKBD12",
+          "code_note": "선착순 100개"
         }
       ]
     },
@@ -7513,12 +7530,6 @@
       "name": "로지텍 MX Master 3S 마우스",
       "offers": [
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "06:23",
-          "price": "7만 원대",
-          "code": ""
-        },
-        {
           "video_id": "LQ_t8zj35cU",
           "time": "05:07",
           "price": "8만 원대",
@@ -7531,6 +7542,13 @@
           "price": "$65.31(코드 적용)",
           "code": "LEADER018",
           "code_note": "선착순 50장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "06:23",
+          "price": "약 $54(코드 적용, 카드 할인 전)",
+          "code": "UPKBD08",
+          "code_note": "선착순 100개"
         }
       ]
     },
@@ -7538,12 +7556,6 @@
       "category": "키보드·마우스·게임패드",
       "name": "로지텍 MX Master 4 마우스",
       "offers": [
-        {
-          "video_id": "xhkgg4s7wyg",
-          "time": "06:23",
-          "price": "10만 원대 초반",
-          "code": ""
-        },
         {
           "video_id": "9wSXn1RuCE4",
           "time": "07:38",
@@ -7564,6 +7576,13 @@
           "price": "",
           "code": "DIRECT004",
           "code_note": "선착순 100장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "06:23",
+          "price": "약 $75(코드 적용, 카드 할인 전)",
+          "code": "UPKBD15",
+          "code_note": "선착순 100개"
         }
       ]
     },
@@ -7614,7 +7633,8 @@
           "time": "07:54",
           "price": "$11.96(코드 적용)",
           "option": "Dual Arm Bracket2",
-          "code": "DWAS008"
+          "code": "DWAS008",
+          "code_note": "선착순 150개"
         }
       ]
     },
@@ -7927,7 +7947,8 @@
           "time": "08:24",
           "price": "$12.12(코드 적용)",
           "option": "Metal Triple Slots",
-          "code": "DWAS015"
+          "code": "DWAS015",
+          "code_note": "선착순 100개"
         }
       ]
     },
@@ -7973,18 +7994,19 @@
       "name": "레노버 AP500U 스타일러스 펜",
       "offers": [
         {
-          "video_id": "W24bPBTj-eY",
-          "time": "06:53",
-          "price": "$17.03(코드 적용)",
-          "option": "Stylus",
-          "code": "DWAS009"
-        },
-        {
           "video_id": "lG12Kp0mT7E",
           "time": "05:38",
           "price": "$17.03(코드 적용)",
           "code": "HLBS25",
           "code_note": "선착순 50개"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "06:53",
+          "price": "$17.03(코드 적용)",
+          "option": "Stylus",
+          "code": "DWAS009",
+          "code_note": "선착순 100개"
         }
       ]
     },
@@ -8014,17 +8036,18 @@
           "code_note": "선착순 50장"
         },
         {
-          "video_id": "W24bPBTj-eY",
-          "time": "07:20",
-          "price": "$36.85(코드 적용)",
-          "option": "Stylus Pro 2nd",
-          "code": "DWAS010"
-        },
-        {
           "video_id": "lG12Kp0mT7E",
           "time": "05:38",
           "price": "$36.85(코드 적용)",
           "code": "HLBS26",
+          "code_note": "선착순 100개"
+        },
+        {
+          "video_id": "W24bPBTj-eY",
+          "time": "07:20",
+          "price": "$36.85(코드 적용)",
+          "option": "Stylus Pro 2nd",
+          "code": "DWAS010",
           "code_note": "선착순 100개"
         }
       ]
@@ -8046,12 +8069,6 @@
       "name": "버니플라이 18인치 알루미늄 캐리어",
       "offers": [
         {
-          "video_id": "xhkgg4s7wyg",
-          "time": "15:38",
-          "price": "7만 원대",
-          "code": ""
-        },
-        {
           "video_id": "BAfduTCF454",
           "time": "08:10",
           "price": "$54.52(코드 적용)",
@@ -8064,6 +8081,13 @@
           "price": "$54.52(약 72,100원, 코드 적용)",
           "code": "KOWANG11",
           "code_note": "선착순 50장"
+        },
+        {
+          "video_id": "xhkgg4s7wyg",
+          "time": "15:38",
+          "price": "약 $55(코드 적용, 카드 할인 전)",
+          "code": "UPKBD16",
+          "code_note": "선착순 100개, 예비코드 JGGB08"
         }
       ]
     },
