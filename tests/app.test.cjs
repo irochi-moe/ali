@@ -39,7 +39,7 @@ test('loads the complete catalog with relative paths and timestamped source link
   assert.equal((nodes.results.innerHTML.match(/<details /g) || []).length, catalog.products.length);
   assert.match(nodes.results.innerHTML, /&amp;t=4661s/);
   assert.match(nodes.results.innerHTML, /NPWGVK3SHZT8/);
-  assert.match(nodes.results.innerHTML, /href="https:\/\/s\.click\.aliexpress\.com\/e\/[^"]+"[^>]*>알리에서 보기/);
+  assert.match(nodes.results.innerHTML, /href="https:\/\/s\.click\.aliexpress\.com\/e\/[^"]+"[^>]*>[^<]+ 알리 링크<\/a> <span class="muted">\(유튜버 링크 그대로\)/);
   assert.match(nodes.updated.textContent, /2026/);
   assert.equal(nodes.search.disabled, false);
 });
@@ -84,7 +84,7 @@ test('escapes product, option and code text, and blocks executable code links', 
   assert.match(nodes.results.innerHTML, /&lt;img/);
   assert.match(nodes.results.innerHTML, /&lt;script&gt;/);
   assert.match(nodes.results.innerHTML, /&lt;b&gt;COUPON/);
-  assert.doesNotMatch(nodes.results.innerHTML, /<img|<script|href="javascript:|evil\.example|알리에서 보기/);
+  assert.doesNotMatch(nodes.results.innerHTML, /<img|<script|href="javascript:|evil\.example|알리 링크/);
 });
 
 test('a failed data request leaves a visible recovery message', async () => {

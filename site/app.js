@@ -50,7 +50,9 @@ async function loadCatalog() {
         const url = new URL(offer.url);
         const shop = url.hostname === 'aliexpress.com' || url.hostname.endsWith('.aliexpress.com');
         if (url.protocol !== 'https:' || !shop || url.username || url.password) return '';
-        return `<div><a href="${esc(url.href)}" target="_blank" rel="noreferrer">알리에서 보기</a></div>`;
+        const channel = videos[offer.video_id].channel;
+        return `<div><a href="${esc(url.href)}" target="_blank" rel="noreferrer">${esc(channel)} 알리 링크</a>`
+          + ' <span class="muted">(유튜버 링크 그대로)</span></div>';
       } catch {
         return '';
       }
