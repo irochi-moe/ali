@@ -45,10 +45,21 @@ async function loadCatalog() {
       return cell + (offer.code_note ? `<div class="muted">${esc(offer.code_note)}</div>` : '');
     }
 
+    function shopHTML(offer) {
+      try {
+        const url = new URL(offer.url);
+        const shop = url.hostname === 'aliexpress.com' || url.hostname.endsWith('.aliexpress.com');
+        if (url.protocol !== 'https:' || !shop || url.username || url.password) return '';
+        return `<div><a href="${esc(url.href)}" target="_blank" rel="noreferrer">알리에서 보기</a></div>`;
+      } catch {
+        return '';
+      }
+    }
+
     function productHTML(product) {
       const rows = product.offers.map(offer => `<tr>
         <td>${esc(videos[offer.video_id].channel)}</td>
-        <td>${esc(offer.price || '미공개')}${offer.option ? `<div class="muted">${esc(offer.option)}</div>` : ''}</td>
+        <td>${esc(offer.price || '미공개')}${offer.option ? `<div class="muted">${esc(offer.option)}</div>` : ''}${shopHTML(offer)}</td>
         <td>${codeHTML(offer)}</td>
         <td><a href="${esc(videoURL(offer))}" target="_blank" rel="noreferrer">${esc(offer.time || '영상')}</a></td>
       </tr>`).join('');

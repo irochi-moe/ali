@@ -19,6 +19,13 @@ def allowed(name, category):
     return True
 
 
+def aliexpress_url(value):
+    u = urlparse(value)
+    host = u.hostname or ''
+    return (u.scheme == 'https' and not u.username and not u.password and not u.port
+            and (host == 'aliexpress.com' or host.endswith('.aliexpress.com')))
+
+
 def validate(data):
     assert set(data) == {'updated_at', 'videos', 'products'}, 'Unexpected catalog fields'
     datetime.fromisoformat(data['updated_at'])
@@ -38,7 +45,7 @@ def validate(data):
         names.add(product['name'])
         offers = set()
         for offer in product['offers']:
-            assert {'video_id', 'time', 'price', 'code'} <= set(offer) <= {'video_id', 'time', 'price', 'option', 'code', 'code_url', 'code_note'}
+            assert {'video_id', 'time', 'price', 'code'} <= set(offer) <= {'video_id', 'time', 'price', 'option', 'code', 'code_url', 'code_note', 'url'}
             assert offer['video_id'] in ids
             assert offer['time'] is None or re.fullmatch(r'\d{1,2}(?::[0-5]\d){1,2}', offer['time'])
             assert isinstance(offer['price'], str)
@@ -48,6 +55,8 @@ def validate(data):
             if offer.get('code_url'):
                 u = urlparse(offer['code_url'])
                 assert offer['code'] and u.scheme == 'https' and u.hostname and not u.username and not u.password
+            if 'url' in offer:
+                assert aliexpress_url(offer['url']), offer['url']
             key = (offer['video_id'], offer['time'], offer.get('option', ''))
             assert key not in offers, (product['name'], key)
             offers.add(key)
@@ -64,7 +73,7 @@ def apply_video(data, snapshot):
         for offer in product['offers']:
             if offer['video_id'] == video['id'] and offer['code']:
                 key = (product['name'], offer.get('option', ''))
-                value = {k: offer[k] for k in ('code', 'code_url', 'code_note') if k in offer}
+                value = {k: offer[k] for k in ('code', 'code_url', 'code_note', 'url') if k in offer}
                 assert key not in previous_codes or previous_codes[key] == value, 'Conflicting existing codes'
                 previous_codes[key] = value
     result['videos'] = [v for v in result['videos'] if v['id'] != video['id']] + [video]
@@ -72,13 +81,16 @@ def apply_video(data, snapshot):
         product['offers'] = [o for o in product['offers'] if o['video_id'] != video['id']]
     by_name = {p['name']: p for p in result['products']}
     for raw in snapshot['products']:
-        assert {'category', 'name', 'time', 'price'} <= set(raw) <= {'category', 'name', 'time', 'price', 'option', 'code', 'code_url', 'code_note'}
+        assert {'category', 'name', 'time', 'price'} <= set(raw) <= {'category', 'name', 'time', 'price', 'option', 'code', 'code_url', 'code_note', 'url'}
         item = entry(raw)
         if not allowed(item['name'], item['category']):
             continue
         name = item['name']
+        previous = previous_codes.get((name, item.get('option', '')), {})
         if 'code' not in raw:
-            item.update(previous_codes.get((name, item.get('option', '')), {}))
+            item.update({k: v for k, v in previous.items() if k != 'url'})
+        if 'url' not in raw and 'url' in previous:
+            item['url'] = previous['url']
         if name not in by_name:
             by_name[name] = {'category': item['category'], 'name': name, 'offers': []}
         assert by_name[name]['category'] == item['category'], 'Category mismatch: ' + name

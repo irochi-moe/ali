@@ -51,6 +51,20 @@ assert preserved['products'][0]['offers'][-1]['code'] == 'CREATOR26'
 cleared = apply_video(with_code, {'video': snapshot['video'], 'products': [
     {**snapshot['products'][0], 'code': ''}]})
 assert cleared['products'][0]['offers'][-1]['code'] == ''
+shop = 'https://s.click.aliexpress.com/e/_test'
+with_url = apply_video(with_code, {'video': snapshot['video'], 'products': [
+    {**snapshot['products'][0], 'code': 'CREATOR26', 'url': shop}]})
+assert apply_video(with_url, snapshot)['products'][0]['offers'][-1]['url'] == shop
+for bad_url in ['http://s.click.aliexpress.com/e/x', 'https://aliexpress.com.evil.example/x',
+                'https://user@ko.aliexpress.com/x', 'https://bit.ly/x']:
+    broken = json.loads(json.dumps(with_url))
+    broken['products'][0]['offers'][-1]['url'] = bad_url
+    try:
+        validate(broken)
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Unsafe shop URL accepted: ' + bad_url)
 
 with tempfile.TemporaryDirectory() as directory:
     path = Path(directory) / 'catalog.json'

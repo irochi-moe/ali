@@ -39,6 +39,7 @@ test('loads the complete catalog with relative paths and timestamped source link
   assert.equal((nodes.results.innerHTML.match(/<details /g) || []).length, catalog.products.length);
   assert.match(nodes.results.innerHTML, /&amp;t=4661s/);
   assert.match(nodes.results.innerHTML, /NPWGVK3SHZT8/);
+  assert.match(nodes.results.innerHTML, /href="https:\/\/s\.click\.aliexpress\.com\/e\/[^"]+"[^>]*>알리에서 보기/);
   assert.match(nodes.updated.textContent, /2026/);
   assert.equal(nodes.search.disabled, false);
 });
@@ -73,14 +74,17 @@ test('escapes product, option and code text, and blocks executable code links', 
   const data = structuredClone(catalog);
   data.products = [{category: 'CPU', name: '<img src=x onerror=alert(1)>', offers: [{
     video_id: data.videos[0].id, time: null, price: '', option: '<script>bad()</script>',
-    code: '<b>COUPON</b>', code_url: 'javascript:alert(1)'
+    code: '<b>COUPON</b>', code_url: 'javascript:alert(1)', url: 'javascript:alert(1)'
+  }, {
+    video_id: data.videos[0].id, time: '00:01', price: '', code: 'X',
+    url: 'https://aliexpress.com.evil.example/item'
   }]}];
   const {nodes, errors} = await page({data});
   assert.equal(errors.length, 0);
   assert.match(nodes.results.innerHTML, /&lt;img/);
   assert.match(nodes.results.innerHTML, /&lt;script&gt;/);
   assert.match(nodes.results.innerHTML, /&lt;b&gt;COUPON/);
-  assert.doesNotMatch(nodes.results.innerHTML, /<img|<script|href="javascript:/);
+  assert.doesNotMatch(nodes.results.innerHTML, /<img|<script|href="javascript:|evil\.example|알리에서 보기/);
 });
 
 test('a failed data request leaves a visible recovery message', async () => {
