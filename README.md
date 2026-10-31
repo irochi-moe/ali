@@ -22,7 +22,7 @@ git push -u origin main
 - `videos`: 영상 `id`, 통일된 유튜버 이름 `channel`, 실제 확인 시각 `checked_at`.
 - `products`: `category`, 동일 제품에 공통으로 쓰는 `name`, 유튜버별 `offers`.
 - `offers`: `video_id`, 타임라인 `time`, 예상 가격 `price`, 할인 코드 `code`. `option`, `code_url`, `code_note`는 필요할 때 추가한다.
-- 미공개 가격·코드는 빈 문자열, 미확인 타임라인은 `null`이다. 할인 코드의 출처는 `code_url`, 짧은 사용 조건은 `code_note`에 넣는다. 통화·카드·관부가세 조건은 가격에 유지한다.
+- 유튜버 자체 할인 코드가 있는 제품만 넣는다. 알리 공식 금액별 코드만 있거나 코드가 없는 제품·유튜버는 제외한다. 미공개 가격은 빈 문자열, 미확인 타임라인은 `null`이다. 할인 코드의 출처는 `code_url`, 짧은 사용 조건은 `code_note`에 넣는다. 통화·카드·관부가세 조건은 가격에 유지한다.
 - `updated_at`과 `checked_at`은 `2026-10-31T23:29:27+09:00` 같은 시간대가 포함된 ISO 8601 형식이다. 파일 수정 시각 대신 실제 정보 확인 시각을 기록한다.
 
 새 유튜버의 영상 ID를 `videos`에 추가한 뒤, 같은 제품의 `offers`에 연결한다. 규격·용량·세대가 다르면 제품을 구분한다. 제품명·단위·유튜버 별칭·카테고리 규칙은 `scripts/catalog_terms.py`에서 관리한다.
