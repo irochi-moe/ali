@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="유튜버별 알리 제품, 예상 가격, 할인 코드 모음">
+  <title>알리 제품 목록</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>제품 목록 <span class="muted" id="count"></span></h1>
+      <span class="muted" id="updated"></span>
+    </header>
+    <div class="filters">
+      <input id="search" type="search" aria-label="제품·유튜버 검색" placeholder="제품·유튜버 검색" disabled>
+      <select id="group" aria-label="정리 방식" disabled>
+        <option value="products">제품 종류별</option>
+        <option value="channels">유튜버별</option>
+      </select>
+      <select id="category" aria-label="제품 종류" disabled><option value="">종류 전체</option></select>
+      <select id="channel" aria-label="유튜버" disabled><option value="">유튜버 전체</option></select>
+    </div>
+    <div id="results" role="status" aria-live="polite">목록을 불러오는 중…</div>
+    <noscript>제품 목록을 보려면 자바스크립트를 켜 주세요.</noscript>
+  </main>
+</body>
+</html>
