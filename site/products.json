@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T00:49:00+09:00",
+  "updated_at": "2026-11-01T00:56:00+09:00",
   "videos": [
     {
       "id": "PFr56mlEbQg",
@@ -84,11 +84,6 @@
     {
       "id": "PqlDttEmB6k",
       "channel": "셀링포인트",
-      "checked_at": "2026-11-01T00:03:00+09:00"
-    },
-    {
-      "id": "RY4MSAPietk",
-      "channel": "로띠끼룩",
       "checked_at": "2026-11-01T00:03:00+09:00"
     },
     {
@@ -272,11 +267,6 @@
       "checked_at": "2026-11-01T00:03:00+09:00"
     },
     {
-      "id": "jKH5TOnSEc4",
-      "channel": "무적풍화륜",
-      "checked_at": "2026-10-31T23:25:46.893279+09:00"
-    },
-    {
       "id": "pTxoVSvoOOQ",
       "channel": "기똥찬 똥찬",
       "checked_at": "2026-10-31T23:25:38.603246+09:00"
@@ -350,6 +340,16 @@
       "id": "lG12Kp0mT7E",
       "channel": "홈랩스",
       "checked_at": "2026-11-01T00:03:00+09:00"
+    },
+    {
+      "id": "RY4MSAPietk",
+      "channel": "로띠끼룩",
+      "checked_at": "2026-11-01T00:56:00+09:00"
+    },
+    {
+      "id": "jKH5TOnSEc4",
+      "channel": "무적풍화륜",
+      "checked_at": "2026-11-01T00:56:00+09:00"
     }
   ],
   "products": [
@@ -480,13 +480,6 @@
           "code_note": "$73.5 할인, 선착순 100장"
         },
         {
-          "video_id": "RY4MSAPietk",
-          "time": "02:50",
-          "price": "",
-          "option": "Ryzen 5 7640HS·24GB·별도 링크",
-          "code": ""
-        },
-        {
           "video_id": "hb9Er7DOMjs",
           "time": "06:32",
           "price": "$295.58(코드 적용, 관부가세 별도)",
@@ -548,14 +541,6 @@
           "code_note": "$73.5 할인, 선착순 100장"
         },
         {
-          "video_id": "jKH5TOnSEc4",
-          "time": "12:08",
-          "price": "$295.58(코드 적용, 카드 할인 전·관세 별도)",
-          "option": "24GB RAM·512GB SSD",
-          "code": "MUPUNG006",
-          "code_note": "선착순 30대"
-        },
-        {
           "video_id": "tEskQdaWpSQ",
           "time": null,
           "price": "$295.58(코드 적용, 관세 별도)",
@@ -570,6 +555,22 @@
           "option": "Ryzen 5 7640HS / 24GB RAM / 512GB SSD",
           "code": "HLBS19",
           "code_note": "선착순 200개"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "02:50",
+          "price": "",
+          "option": "Ryzen 5 7640HS·24GB·별도 링크",
+          "code": "ZXYH28",
+          "code_note": "알리 공식 금액별 코드 · 07번 F1 공통 코드"
+        },
+        {
+          "video_id": "jKH5TOnSEc4",
+          "time": "12:08",
+          "price": "$295.58(코드 적용, 카드 할인 전·관세 별도)",
+          "option": "24GB RAM·512GB SSD",
+          "code": "MUPUNG006",
+          "code_note": "선착순 30대"
         }
       ]
     },
@@ -598,13 +599,6 @@
           "code": "SELLP013",
           "option": "AMD Ryzen 7 H255 / 16GB RAM 512GB SSD / EU",
           "code_note": "$85 할인, 선착순 250장"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "02:50",
-          "price": "$270~$290(카드 할인 전)",
-          "option": "Ryzen 7 H255·16GB·512GB",
-          "code": ""
         },
         {
           "video_id": "dbwfmd-HFF4",
@@ -664,6 +658,14 @@
           "price": "$319.35(코드 적용, 카드 할인 전)",
           "code": "WLRRN104",
           "code_note": "$85 할인·선착순 200장"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "02:50",
+          "price": "$270~$290(카드 할인 전)",
+          "option": "Ryzen 7 H255·16GB·512GB",
+          "code": "ZXYH28",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -767,13 +769,6 @@
           "code_note": "$63 할인, 선착순 20장"
         },
         {
-          "video_id": "RY4MSAPietk",
-          "time": "03:30",
-          "price": "$220 안팎(카드 할인 전)",
-          "option": "16GB·512GB",
-          "code": ""
-        },
-        {
           "video_id": "l0HyPz7WmM8",
           "time": "07:19",
           "price": "$240.14(코드 적용, 카드 할인 전)",
@@ -854,6 +849,14 @@
           "price": "$240.15(코드 적용, 카드 할인 전)",
           "code": "JNTECH06",
           "code_note": "$63 할인·선착순 50개"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "03:30",
+          "price": "$220 안팎(카드 할인 전)",
+          "option": "16GB·512GB",
+          "code": "ZXYH28",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -960,13 +963,6 @@
           "code_note": "$51 할인, 선착순 300장"
         },
         {
-          "video_id": "RY4MSAPietk",
-          "time": "02:23",
-          "price": "$180 안팎(카드 할인 전)",
-          "option": "RAM·SSD 미포함",
-          "code": ""
-        },
-        {
           "video_id": "_eoIzuZK8Js",
           "time": "17:37",
           "price": "",
@@ -1062,6 +1058,14 @@
           "option": "RAM·SSD 없음",
           "code": "TSAURUS05",
           "code_note": "선착순 100장"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "02:23",
+          "price": "$180 안팎(카드 할인 전)",
+          "option": "RAM·SSD 미포함",
+          "code": "LPGQ19",
+          "code_note": "알리 공식 금액별 코드 · 30만 원↑ 시 ZXYH28"
         }
       ]
     },
@@ -1138,13 +1142,6 @@
           "code": "SELLP002",
           "option": "Ryzen 5 PRO 6650H / LPDDR5 16GB NO SSD / EU",
           "code_note": "$45 할인, 선착순 500장"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "03:14",
-          "price": "$140대(카드 할인 전)",
-          "option": "16GB·SSD 미포함",
-          "code": ""
         },
         {
           "video_id": "f-GC49zlgaI",
@@ -1251,6 +1248,14 @@
           "option": "16GB/SSD 없음",
           "code": "TSAURUS04",
           "code_note": "선착순 200장"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "03:14",
+          "price": "$140대(카드 할인 전)",
+          "option": "16GB·SSD 미포함",
+          "code": "LPGQ19",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -1337,13 +1342,6 @@
       "name": "Ninkear S14 노트북",
       "offers": [
         {
-          "video_id": "RY4MSAPietk",
-          "time": "03:48",
-          "price": "$460 안팎(카드 할인 전)",
-          "option": "Ryzen 5 6600H·16GB·512GB",
-          "code": ""
-        },
-        {
           "video_id": "bXZKIlfkWVU",
           "time": "34:50",
           "price": "$465.47(코드 적용, 카드 할인 전)",
@@ -1388,6 +1386,14 @@
           "code": "DORE005",
           "option": "16GB·512GB",
           "code_note": "$99 할인"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "03:48",
+          "price": "$460 안팎(카드 할인 전)",
+          "option": "Ryzen 5 6600H·16GB·512GB",
+          "code": "EBPD45",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -1416,13 +1422,6 @@
           "code": "SELLP010",
           "option": "Only Tablet / EU",
           "code_note": "$34 할인, 선착순 100장"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "02:06",
-          "price": "$100 안팎(카드 할인 전)",
-          "option": "8GB·128GB",
-          "code": ""
         },
         {
           "video_id": "_eoIzuZK8Js",
@@ -1542,6 +1541,14 @@
           "code": "ALTLAB010",
           "option": "8GB·128GB",
           "code_note": "선착순 150장, 스토어쿠폰 $10.90"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "02:06",
+          "price": "$100 안팎(카드 할인 전)",
+          "option": "8GB·128GB",
+          "code": "UFTZ13",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -1584,13 +1591,6 @@
           "code": "SELLP014",
           "option": "China Mainland / B6 white with case",
           "code_note": "$34 할인, 선착순 150장"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "08:43",
-          "price": "$120대 초반(카드 할인 전)",
-          "option": "케이스 포함",
-          "code": ""
         },
         {
           "video_id": "_eoIzuZK8Js",
@@ -1650,6 +1650,14 @@
           "price": "약 $121.81(스토어쿠폰·코드 적용, 카드 할인 전)",
           "code": "UKG18",
           "code_note": "선착순 600명, 스토어 쿠폰 BIGMEB6TOP01 먼저"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "08:43",
+          "price": "$120대 초반(카드 할인 전)",
+          "option": "케이스 포함",
+          "code": "UFTZ13",
+          "code_note": "알리 공식 금액별 코드 · 20만 원↑ 시 LPGQ19"
         }
       ]
     },
@@ -1768,12 +1776,6 @@
           "code_note": "$84 할인, 선착순 100장"
         },
         {
-          "video_id": "RY4MSAPietk",
-          "time": "08:00",
-          "price": "$300 안팎(카드 할인 전)",
-          "code": ""
-        },
-        {
           "video_id": "l0HyPz7WmM8",
           "time": null,
           "price": "$314.50(쿠폰 GTMAX11·코드 적용, 카드 할인 전)",
@@ -1812,6 +1814,13 @@
           "code": "JALAL01",
           "option": "Size M",
           "code_note": "스토어쿠폰 GTMAX11 먼저 적용, 선착순 100장"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "08:00",
+          "price": "$300 안팎(카드 할인 전)",
+          "code": "ZXYH28",
+          "code_note": "알리 공식 금액별 코드 · 50만 원↑ 시 EBPD45"
         }
       ]
     },
@@ -1971,13 +1980,6 @@
           "code_note": "선착순 50장"
         },
         {
-          "video_id": "RY4MSAPietk",
-          "time": "01:25",
-          "price": "$290대(카드 할인 전)",
-          "option": "12GB·256GB",
-          "code": ""
-        },
-        {
           "video_id": "_eoIzuZK8Js",
           "time": "12:12",
           "price": "",
@@ -2107,6 +2109,14 @@
           "price": "$316.47(코드 적용, 카드 할인 전)",
           "code": "JNTECH12",
           "code_note": "$68 할인·선착순 100개"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "01:25",
+          "price": "$290대(카드 할인 전)",
+          "option": "12GB·256GB",
+          "code": "ZXYH28",
+          "code_note": "알리 공식 금액별 코드 · 50만 원↑ 시 EBPD45"
         }
       ]
     },
@@ -2121,13 +2131,6 @@
           "code": "WLRRN718",
           "option": "12GB·256GB Black",
           "code_note": "$93 할인·선착순 100장"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "01:45",
-          "price": "$360 안팎(카드 할인 전)",
-          "option": "12GB·256GB",
-          "code": ""
         },
         {
           "video_id": "VgxIeOc5QUw",
@@ -2190,6 +2193,14 @@
           "price": "$380.20(코드 적용, 카드 할인 전)",
           "code": "WLRRN718",
           "code_note": "$93 할인·선착순 100장"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "01:45",
+          "price": "$360 안팎(카드 할인 전)",
+          "option": "12GB·256GB",
+          "code": "EBPD45",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -2340,13 +2351,6 @@
           "option": "8GB/128GB",
           "code": "TSAURUS02",
           "code_note": "선착순 200장"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "00:42",
-          "price": "$190 안팎(카드 할인 전)",
-          "option": "8GB·128GB",
-          "code": ""
         },
         {
           "video_id": "_eoIzuZK8Js",
@@ -2535,6 +2539,14 @@
           "option": "8GB/128GB",
           "code": "HLBS04",
           "code_note": "선착순 200개"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "00:42",
+          "price": "$190 안팎(카드 할인 전)",
+          "option": "8GB·128GB",
+          "code": "LPGQ19",
+          "code_note": "알리 공식 금액별 코드 · 30만 원↑ 시 ZXYH28"
         }
       ]
     },
@@ -2639,13 +2651,6 @@
           "code": "WLRRN758",
           "option": "8GB·256GB Grey",
           "code_note": "$64 할인·선착순 100장"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "01:05",
-          "price": "$270 안팎(카드 할인 전)",
-          "option": "8GB·256GB",
-          "code": ""
         },
         {
           "video_id": "XLSnD3k66t8",
@@ -2753,6 +2758,14 @@
           "price": "$280.85(코드 적용, 카드 할인 전)",
           "code": "JNTECH14",
           "code_note": "$64 할인·선착순 100개"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "01:05",
+          "price": "$270 안팎(카드 할인 전)",
+          "option": "8GB·256GB",
+          "code": "ZXYH28",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -2968,13 +2981,6 @@
           "code_note": "선착순 100개"
         },
         {
-          "video_id": "RY4MSAPietk",
-          "time": "05:03",
-          "price": "$100 안팎(카드 할인 전)",
-          "option": "벌크",
-          "code": ""
-        },
-        {
           "video_id": "dbwfmd-HFF4",
           "time": "00:56",
           "price": "$108.11(코드 적용, 카드 할인 전)",
@@ -3013,6 +3019,14 @@
           "price": "약 $108.11(코드 적용, 카드 할인 전)",
           "code": "DORE017",
           "code_note": "$20.5 할인"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "05:03",
+          "price": "$100 안팎(카드 할인 전)",
+          "option": "벌크",
+          "code": "UFTZ13",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -3033,13 +3047,6 @@
           "price": "$200.16(코드 적용, KB국민 Visa 결제 시)",
           "code": "KIMT015",
           "code_note": "선착순 100개"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "04:34",
-          "price": "$190 안팎(카드 할인 전)",
-          "option": "벌크",
-          "code": ""
         },
         {
           "video_id": "ihpJ5uIqwMQ",
@@ -3109,6 +3116,14 @@
           "price": "$222.16(코드 적용, 카드 할인 전)",
           "code": "JNTECH10",
           "code_note": "$47.5 할인·선착순 50개"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "04:34",
+          "price": "$190 안팎(카드 할인 전)",
+          "option": "벌크",
+          "code": "LPGQ19",
+          "code_note": "알리 공식 금액별 코드 · 30만 원↑ 시 ZXYH28"
         }
       ]
     },
@@ -3124,13 +3139,6 @@
           "code_note": "$39 할인·선착순 100장"
         },
         {
-          "video_id": "RY4MSAPietk",
-          "time": "04:48",
-          "price": "$190대 초반(카드 할인 전)",
-          "option": "벌크",
-          "code": ""
-        },
-        {
           "video_id": "XLSnD3k66t8",
           "time": "01:18",
           "price": "$190.62(코드 적용, 카드 할인 전·관세 별도)",
@@ -3142,6 +3150,14 @@
           "price": "$190.62(코드 적용, 카드 할인 전)",
           "code": "WLRRN142",
           "code_note": "$39 할인·선착순 100장"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "04:48",
+          "price": "$190대 초반(카드 할인 전)",
+          "option": "벌크",
+          "code": "LPGQ19",
+          "code_note": "알리 공식 금액별 코드 · 30만 원↑ 시 ZXYH28"
         }
       ]
     },
@@ -3162,13 +3178,6 @@
           "price": "$295.68(코드·스토어 쿠폰 적용, KB국민 Visa 결제 시)",
           "code": "KIMT016",
           "code_note": "선착순 100개"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "04:11",
-          "price": "$310대 후반(카드 할인 전)",
-          "option": "벌크",
-          "code": ""
         },
         {
           "video_id": "VgxIeOc5QUw",
@@ -3259,6 +3268,14 @@
           "price": "$317.68(스토어쿠폰·코드 적용, 카드 할인 전)",
           "code": "JNTECH11",
           "code_note": "$73 할인·선착순 50개, 스토어쿠폰 $4"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "04:11",
+          "price": "$310대 후반(카드 할인 전)",
+          "option": "벌크",
+          "code": "ZXYH28",
+          "code_note": "알리 공식 금액별 코드 · 50만 원↑ 시 EBPD45"
         }
       ]
     },
@@ -3358,13 +3375,6 @@
           "code_note": "$29 할인, 선착순 60장"
         },
         {
-          "video_id": "RY4MSAPietk",
-          "time": "06:04",
-          "price": "$80대(카드 할인 전)",
-          "option": "8GB",
-          "code": ""
-        },
-        {
           "video_id": "l0HyPz7WmM8",
           "time": null,
           "price": "$101.39(스토어 쿠폰·코드 적용, 카드 할인 전)",
@@ -3415,6 +3425,14 @@
           "price": "$101.39(스토어쿠폰·코드 적용, 카드 할인 전)",
           "code": "JNTECH15",
           "code_note": "$29 할인·선착순 100개, 스토어쿠폰 $1"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "06:04",
+          "price": "$80대(카드 할인 전)",
+          "option": "8GB",
+          "code": "PDEX08",
+          "code_note": "알리 공식 금액별 코드 · 13만 원↑ 시 UFTZ13"
         }
       ]
     },
@@ -3436,13 +3454,6 @@
           "code": "SELLP012",
           "option": "China Mainland / DDR5 16GB 5600MHz",
           "code_note": "$56 할인, 선착순 150장"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "06:04",
-          "price": "$160대(카드 할인 전)",
-          "option": "16GB",
-          "code": ""
         },
         {
           "video_id": "l0HyPz7WmM8",
@@ -3495,6 +3506,14 @@
           "price": "$186.12(배송비 포함, 스토어 쿠폰+코드 적용, 카드 할인 전)",
           "code": "TSAURUS19",
           "code_note": "스토어 쿠폰 $2 함께, 선착순 200장"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "06:04",
+          "price": "$160대(카드 할인 전)",
+          "option": "16GB",
+          "code": "LPGQ19",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -3727,13 +3746,6 @@
           "code_note": "스토어쿠폰 FXKR202601 먼저 적용, 선착순 100장"
         },
         {
-          "video_id": "RY4MSAPietk",
-          "time": "05:40",
-          "price": "$100대 중반(카드 할인 전)",
-          "option": "1TB",
-          "code": ""
-        },
-        {
           "video_id": "XLSnD3k66t8",
           "time": "29:11",
           "price": "$105.59(스토어 쿠폰+코드 적용, 카드 할인 전)",
@@ -3767,6 +3779,14 @@
           "price": "$106.05(스토어쿠폰·코드 적용, 카드 할인 전)",
           "code": "JNTECH18",
           "code_note": "$24 할인·선착순 100개, 스토어쿠폰 $3.13"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "05:40",
+          "price": "$100대 중반(카드 할인 전)",
+          "option": "1TB",
+          "code": "UFTZ13",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -3826,7 +3846,8 @@
           "time": "05:52",
           "price": "$110대 후반(카드 할인 전)",
           "option": "1TB",
-          "code": ""
+          "code": "UFTZ13",
+          "code_note": "알리 공식 금액별 코드 · 20만 원↑ 시 LPGQ19"
         }
       ]
     },
@@ -3993,9 +4014,10 @@
         {
           "video_id": "jKH5TOnSEc4",
           "time": "10:52",
-          "price": "",
+          "price": "$220.44(코드·스토어 쿠폰 적용, 카드 할인 전·관세 별도)",
           "option": "2TB",
-          "code": ""
+          "code": "MUPUNG007",
+          "code_note": "Crucial P505 2TB 기준, 선착순 50개"
         }
       ]
     },
@@ -4003,13 +4025,6 @@
       "category": "SSD·저장장치",
       "name": "Crucial P505 SSD 2TB",
       "offers": [
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "05:20",
-          "price": "$220대 초반(카드 할인 전)",
-          "option": "2TB·OEM",
-          "code": ""
-        },
         {
           "video_id": "G8KqC_xzvBo",
           "time": null,
@@ -4039,6 +4054,14 @@
           "price": "약 $220.52(쿠폰·코드 적용, 카드 할인 전)",
           "code": "DORE006",
           "code_note": "$51 할인"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "05:20",
+          "price": "$220대 초반(카드 할인 전)",
+          "option": "2TB·OEM",
+          "code": "ZXYH28",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -4967,7 +4990,8 @@
           "time": "08:18",
           "price": "38만 원대 후반",
           "option": "국내 발송",
-          "code": ""
+          "code": "ZXYH28",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -5036,8 +5060,9 @@
         {
           "video_id": "jKH5TOnSEc4",
           "time": "12:55",
-          "price": "",
-          "code": ""
+          "price": "$84.69(코드 적용, 카드 할인 전)",
+          "code": "MUPUNG013",
+          "code_note": "UWANT V500 Ultra EU 플러그 기준, 선착순 50대"
         }
       ]
     },
@@ -5437,13 +5462,6 @@
           "code_note": "선착순 100장"
         },
         {
-          "video_id": "RY4MSAPietk",
-          "time": "06:47",
-          "price": "$70 안팎(카드 할인 전)",
-          "option": "EU 플러그",
-          "code": ""
-        },
-        {
           "video_id": "ihpJ5uIqwMQ",
           "time": "13:50",
           "price": "",
@@ -5533,6 +5551,14 @@
           "price": "$80.99(코드 적용)",
           "code": "HLBS18",
           "code_note": "선착순 150개, 작성자 댓글: 현재 코드 미작동 확인 중"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "06:47",
+          "price": "$70 안팎(카드 할인 전)",
+          "option": "EU 플러그",
+          "code": "PDEX08",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -5561,13 +5587,6 @@
           "price": "$120.98(코드 적용, 카드 할인 전)",
           "code": "TSAURUS16",
           "code_note": "선착순 100장"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "06:16",
-          "price": "$120대 초반(카드 할인 전)",
-          "option": "화이트",
-          "code": ""
         },
         {
           "video_id": "_eoIzuZK8Js",
@@ -5725,6 +5744,14 @@
           "price": "$120.98(코드 적용)",
           "code": "HLBS14",
           "code_note": "선착순 150개, 작성자 댓글: 현재 코드 미작동 확인 중"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "06:16",
+          "price": "$120대 초반(카드 할인 전)",
+          "option": "화이트",
+          "code": "UFTZ13",
+          "code_note": "알리 공식 금액별 코드 · 20만 원↑ 시 LPGQ19"
         }
       ]
     },
@@ -5781,12 +5808,6 @@
           "code": "SELLP006",
           "option": "China Mainland / White",
           "code_note": "$8.5 할인, 선착순 100장"
-        },
-        {
-          "video_id": "RY4MSAPietk",
-          "time": "06:37",
-          "price": "$80 안팎(카드 할인 전)",
-          "code": ""
         },
         {
           "video_id": "XLSnD3k66t8",
@@ -5887,6 +5908,13 @@
           "price": "$86.89(코드 적용, 카드 할인 전)",
           "code": "ALTLAB015",
           "code_note": "블랙, 화이트는 ALTLAB016·선착순 100장"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "06:37",
+          "price": "$80 안팎(카드 할인 전)",
+          "code": "PDEX08",
+          "code_note": "알리 공식 금액별 코드 · 13만 원↑ 시 UFTZ13"
         }
       ]
     },
@@ -5949,12 +5977,6 @@
       "name": "Edifier T5s 서브우퍼",
       "offers": [
         {
-          "video_id": "RY4MSAPietk",
-          "time": "06:58",
-          "price": "$90대 중반(카드 할인 전)",
-          "code": ""
-        },
-        {
           "video_id": "AtRy1bXZjEE",
           "time": null,
           "price": "약 $95.00(코드 적용, 카드 할인 전)",
@@ -5981,6 +6003,13 @@
           "price": "$94.99(코드 적용)",
           "code": "HLBS16",
           "code_note": "선착순 100개, 작성자 댓글: 현재 코드 미작동 확인 중"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "06:58",
+          "price": "$90대 중반(카드 할인 전)",
+          "code": "UFTZ13",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -6093,8 +6122,9 @@
         {
           "video_id": "jKH5TOnSEc4",
           "time": "09:55",
-          "price": "10만 원 내외",
-          "code": ""
+          "price": "$44.98(코드 적용)",
+          "code": "MUPUNG014",
+          "code_note": "Edifier WH880NB Ivory 기준, 선착순 80대"
         }
       ]
     },
@@ -6237,18 +6267,18 @@
           "code_note": "$4 할인·선착순 50장"
         },
         {
-          "video_id": "jKH5TOnSEc4",
-          "time": "10:34",
-          "price": "$16.24(코드 적용)",
-          "code": "MUPUNG017",
-          "code_note": "색상별 선착순 30대"
-        },
-        {
           "video_id": "g_FFNxSAj08",
           "time": "05:25",
           "price": "$16.24(약 21,500원, 코드 적용)",
           "code": "KOWANG19",
           "code_note": "선착순 50장"
+        },
+        {
+          "video_id": "jKH5TOnSEc4",
+          "time": "10:34",
+          "price": "$16.24(코드 적용)",
+          "code": "MUPUNG017",
+          "code_note": "색상별 선착순 30대"
         }
       ]
     },
@@ -6648,7 +6678,8 @@
           "time": "07:11",
           "price": "$100대 초반(카드 할인 전)",
           "option": "일반 크기·Mini와 구분",
-          "code": ""
+          "code": "UFTZ13",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -6994,7 +7025,8 @@
           "time": "07:43",
           "price": "$190대 후반(카드 할인 전)",
           "option": "Google TV·EU 플러그",
-          "code": ""
+          "code": "LPGQ19",
+          "code_note": "알리 공식 금액별 코드 · 30만 원↑ 시 ZXYH28"
         }
       ]
     },
@@ -7099,18 +7131,19 @@
       "name": "ZEUSLAP Z18TV 18.5인치 스마트 모니터",
       "offers": [
         {
-          "video_id": "RY4MSAPietk",
-          "time": "07:28",
-          "price": "$130대 후반(카드 할인 전)",
-          "option": "Google TV",
-          "code": ""
-        },
-        {
           "video_id": "9pAqIZPtT50",
           "time": "04:05",
           "price": "약 $128.55(코드 적용, 카드 할인 전)",
           "code": "UKG04",
           "code_note": "선착순 350명"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "07:28",
+          "price": "$130대 후반(카드 할인 전)",
+          "option": "Google TV",
+          "code": "LPGQ19",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -8432,13 +8465,6 @@
           "code_note": "$10 할인·선착순 100장, 스토어쿠폰 UDIY08"
         },
         {
-          "video_id": "jKH5TOnSEc4",
-          "time": "11:29",
-          "price": "$34.99(코드·스토어 쿠폰 적용, 배송비 별도)",
-          "code": "MUPUNG012",
-          "code_note": "스토어 할인·코드 상세페이지 수령, 선착순 50대"
-        },
-        {
           "video_id": "pTxoVSvoOOQ",
           "time": "10:47",
           "price": "$34.99(스토어쿠폰·코드 적용)",
@@ -8481,6 +8507,13 @@
           "price": "$34.99(스토어 할인·쿠폰+코드 적용, 카드 할인 전)",
           "code": "TSAURUS09",
           "code_note": "스토어 쿠폰 $8 함께, 선착순 100장"
+        },
+        {
+          "video_id": "jKH5TOnSEc4",
+          "time": "11:29",
+          "price": "$34.99(코드·스토어 쿠폰 적용, 배송비 별도)",
+          "code": "MUPUNG012",
+          "code_note": "스토어 할인·코드 상세페이지 수령, 선착순 50대"
         }
       ]
     },
@@ -8775,13 +8808,6 @@
           "code_note": "스토어 쿠폰 $4 함께, 선착순 100장"
         },
         {
-          "video_id": "RY4MSAPietk",
-          "time": "09:09",
-          "price": "$100대 후반(카드 할인 전)",
-          "option": "KR 플러그",
-          "code": ""
-        },
-        {
           "video_id": "XLSnD3k66t8",
           "time": "23:49",
           "price": "$107.79(스토어 쿠폰+코드 적용, 카드 할인 전)",
@@ -8823,6 +8849,14 @@
           "price": "$107.79(스토어쿠폰·코드 적용, 카드 할인 전)",
           "code": "JNTECH13",
           "code_note": "$25 할인·선착순 50개, 스토어쿠폰 $4"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "09:09",
+          "price": "$100대 후반(카드 할인 전)",
+          "option": "KR 플러그",
+          "code": "UFTZ13",
+          "code_note": "알리 공식 금액별 코드"
         }
       ]
     },
@@ -9398,19 +9432,19 @@
           "code_note": "선착순 30대"
         },
         {
-          "video_id": "jKH5TOnSEc4",
-          "time": "09:06",
-          "price": "$70.89(코드 적용, 카드 할인 전)",
-          "code": "MUPUNG008",
-          "code_note": "선착순 30대"
-        },
-        {
           "video_id": "9pAqIZPtT50",
           "time": "02:40",
           "price": "약 $70.89(코드 적용, 카드 할인 전)",
           "code": "UKG17",
           "option": "Black",
           "code_note": "선착순 600명"
+        },
+        {
+          "video_id": "jKH5TOnSEc4",
+          "time": "09:06",
+          "price": "$70.89(코드 적용, 카드 할인 전)",
+          "code": "MUPUNG008",
+          "code_note": "선착순 30대"
         }
       ]
     },
@@ -10306,12 +10340,6 @@
       "name": "로지텍 G PRO X SUPERLIGHT 2 마우스",
       "offers": [
         {
-          "video_id": "RY4MSAPietk",
-          "time": "08:54",
-          "price": "$80 안팎(카드 할인 전)",
-          "code": ""
-        },
-        {
           "video_id": "bXZKIlfkWVU",
           "time": "23:04",
           "price": "$80.52(코드 적용, 카드 할인 전)",
@@ -10356,6 +10384,13 @@
           "code": "ALTLAB009",
           "option": "카드 할인 전",
           "code_note": "선착순 150장"
+        },
+        {
+          "video_id": "RY4MSAPietk",
+          "time": "08:54",
+          "price": "$80 안팎(카드 할인 전)",
+          "code": "PDEX08",
+          "code_note": "알리 공식 금액별 코드 · 13만 원↑ 시 UFTZ13"
         }
       ]
     },
