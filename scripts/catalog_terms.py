@@ -39,6 +39,7 @@ RENAMES = {
  '태블릿 스탠드 금속홀더 마운트 암':'태블릿 금속 홀더 마운트 암 스탠드',
  'ASOMETECH 165W 충전스테이션':'ASOMETECH 165W 충전 스테이션', 'ASOMETECH 300W 충전스테이션':'ASOMETECH 300W 충전 스테이션',
  'ORICO SSD 인클로저 겸 11-in-1 멀티허브':'ORICO 11-in-1 SSD 인클로저 멀티 허브',
+ 'Hyperion 3 Ultra 조이콘':'NYXI Hyperion 3 Ultra 조이콘',
 }
 BRANDS = [
  (r'\bU-?GREEN\b|유그린','UGREEN'), (r'\bBASEUS\b|베이스어스','Baseus'),

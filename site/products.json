@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T12:00:00+09:00",
+  "updated_at": "2026-11-01T13:00:00+09:00",
   "videos": [
     {
       "id": "6B__FK1EN8k",
@@ -255,6 +255,11 @@
       "id": "toYBYncAJEc",
       "channel": "30대의삶",
       "checked_at": "2026-11-01T12:00:00+09:00"
+    },
+    {
+      "id": "nEGFpIsBpeg",
+      "channel": "프리제이",
+      "checked_at": "2026-11-01T13:00:00+09:00"
     }
   ],
   "products": [
@@ -932,6 +937,15 @@
           "code": "TSAURUS06",
           "code_note": "선착순 50개",
           "url": "https://s.click.aliexpress.com/e/_c4sXB0Dt"
+        },
+        {
+          "video_id": "nEGFpIsBpeg",
+          "time": "03:19",
+          "price": "$253.01(코드 적용, 카드 할인 전, 관부가세 별도)",
+          "code": "FREEJEY6",
+          "option": "화이트·펜·케이스 포함",
+          "code_note": "$53 할인·선착순 20개",
+          "url": "https://s.click.aliexpress.com/e/_c3xH1yj5"
         }
       ]
     },
@@ -949,6 +963,30 @@
           "url": "https://s.click.aliexpress.com/e/_c4rk4gxz"
         },
         {
+          "video_id": "pkmnfAmpdjU",
+          "time": "06:48",
+          "price": "$128.71(코드 적용, 카드 할인 전)",
+          "code": "SELLP014",
+          "option": "B6 white with case",
+          "code_note": "$34 할인·선착순 150개",
+          "url": "https://s.click.aliexpress.com/e/_c4a3Mqix"
+        },
+        {
+          "video_id": "nEGFpIsBpeg",
+          "time": "01:20",
+          "price": "$128.71(코드 적용, 카드 할인 전)",
+          "code": "FREEJEY3",
+          "option": "화이트·케이스 포함",
+          "code_note": "$34 할인·선착순 20개",
+          "url": "https://s.click.aliexpress.com/e/_c2uBqGpt"
+        }
+      ]
+    },
+    {
+      "category": "태블릿·스마트폰·웨어러블",
+      "name": "BIGME B6 컬러 전자책 리더",
+      "offers": [
+        {
           "video_id": "f-GC49zlgaI",
           "time": "13:56",
           "price": "$121.81(쿠폰+코드 적용, 카드 할인 전)",
@@ -965,15 +1003,6 @@
           "url": "https://s.click.aliexpress.com/e/_c4lQYR0T"
         },
         {
-          "video_id": "pkmnfAmpdjU",
-          "time": "06:48",
-          "price": "$128.71(코드 적용, 카드 할인 전)",
-          "code": "SELLP014",
-          "option": "B6 white with case",
-          "code_note": "$34 할인·선착순 150개",
-          "url": "https://s.click.aliexpress.com/e/_c4a3Mqix"
-        },
-        {
           "video_id": "9pAqIZPtT50",
           "time": "02:04",
           "price": "약 $121.81(쿠폰+코드 적용, 카드 할인 전)",
@@ -988,6 +1017,15 @@
           "code": "BLAB07",
           "option": "B6 화이트",
           "code_note": "$31 할인·선착순 200개·스토어 쿠폰 BIGMEB6TOP01"
+        },
+        {
+          "video_id": "nEGFpIsBpeg",
+          "time": "01:20",
+          "price": "$121.81(쿠폰+코드 적용, 카드 할인 전)",
+          "code": "FREEJEY5",
+          "option": "화이트",
+          "code_note": "$31 할인·선착순 20개·스토어 쿠폰 BIGMEB6TOP01(-$2.24)",
+          "url": "https://s.click.aliexpress.com/e/_c3vdaXOB"
         }
       ]
     },
@@ -1002,6 +1040,15 @@
           "code": "TSAURUS07",
           "code_note": "선착순 100개",
           "url": "https://s.click.aliexpress.com/e/_c3MNpIdZ"
+        },
+        {
+          "video_id": "nEGFpIsBpeg",
+          "time": "02:34",
+          "price": "$262.70(코드 적용, 카드 할인 전, 관부가세 별도)",
+          "code": "FREEJEY4",
+          "option": "화이트",
+          "code_note": "$66 할인·선착순 20개",
+          "url": "https://s.click.aliexpress.com/e/_c4ChU6t1"
         }
       ]
     },
@@ -3919,6 +3966,15 @@
           "option": "화이트",
           "code_note": "$14 할인·선착순 300개",
           "url": "https://ko.aliexpress.com/item/1005011600003372.html"
+        },
+        {
+          "video_id": "nEGFpIsBpeg",
+          "time": "06:45",
+          "price": "$120.98(코드 적용, 카드 할인 전)",
+          "code": "FREEJEY11",
+          "option": "화이트",
+          "code_note": "$14 할인·선착순 20개",
+          "url": "https://s.click.aliexpress.com/e/_c3d41e8f"
         }
       ]
     },
@@ -4717,6 +4773,15 @@
           "code": "UUJADUCK14",
           "code_note": "$32.50 할인·우리 Visa 결제 시 $103.86",
           "url": "https://s.click.aliexpress.com/e/_c3qOPYb9"
+        },
+        {
+          "video_id": "nEGFpIsBpeg",
+          "time": "04:51",
+          "price": "$123.86(코드 적용, 카드 할인 전)",
+          "code": "FREEJEY9",
+          "option": "E320 실버",
+          "code_note": "$32.5 할인·선착순 20개",
+          "url": "https://s.click.aliexpress.com/e/_c4SALf7t"
         }
       ]
     },
@@ -4740,6 +4805,15 @@
           "option": "T921 블랙",
           "code_note": "$27 할인·선착순 80개",
           "url": "https://s.click.aliexpress.com/e/_c3YkRKEb"
+        },
+        {
+          "video_id": "nEGFpIsBpeg",
+          "time": "04:04",
+          "price": "$102.02(코드 적용, 카드 할인 전)",
+          "code": "FREEJEY10",
+          "option": "T921 블랙",
+          "code_note": "$27 할인·선착순 20개",
+          "url": "https://s.click.aliexpress.com/e/_c3Ww4QsR"
         }
       ]
     },
@@ -6500,6 +6574,15 @@
           "option": "블랙",
           "code_note": "스토어 쿠폰 -$6·선착순 100개",
           "url": "https://s.click.aliexpress.com/e/_c3L92ND5"
+        },
+        {
+          "video_id": "nEGFpIsBpeg",
+          "time": "05:21",
+          "price": "$24.55(쿠폰+코드 적용)",
+          "code": "FREEJEY7",
+          "option": "KC 버전",
+          "code_note": "$6 할인·선착순 20개·스토어 쿠폰 -$5(직접 수령)",
+          "url": "https://s.click.aliexpress.com/e/_c3Zwr0I7"
         }
       ]
     },
@@ -7468,6 +7551,14 @@
           "price": "$57.81(코드 적용)",
           "code": "MACG001",
           "url": "https://s.click.aliexpress.com/e/_c4pTeGcj"
+        },
+        {
+          "video_id": "nEGFpIsBpeg",
+          "time": "08:01",
+          "price": "$57.81(코드 적용)",
+          "code": "FREEJEY2",
+          "code_note": "$14 할인·선착순 20개",
+          "url": "https://s.click.aliexpress.com/e/_c3ee3tT1"
         }
       ]
     },
@@ -7519,21 +7610,15 @@
           "option": "블랙",
           "code_note": "$3 할인·선착순 300개",
           "url": "https://ko.aliexpress.com/item/1005011735727412.html"
-        }
-      ]
-    },
-    {
-      "category": "키보드·마우스·게임패드",
-      "name": "Hyperion 3 Ultra 조이콘",
-      "offers": [
+        },
         {
-          "video_id": "QLkBL_QYheE",
-          "time": "14:37",
-          "price": "$66.21(코드 적용, 카드 할인 전)",
-          "code": "MUPUNG016",
-          "option": "닌텐도 스위치 2용",
-          "code_note": "Handle and bag 옵션·선착순 100개",
-          "url": "https://s.click.aliexpress.com/e/_c3BrrDl9"
+          "video_id": "nEGFpIsBpeg",
+          "time": "07:31",
+          "price": "$12.49(코드 적용)",
+          "code": "FREEJEY1",
+          "option": "블랙",
+          "code_note": "$3 할인·선착순 20개",
+          "url": "https://s.click.aliexpress.com/e/_c2xlOzHz"
         }
       ]
     },
@@ -7718,6 +7803,30 @@
           "code": "GAMEYONGE11",
           "option": "Black TaiShan Switch",
           "url": "https://s.click.aliexpress.com/e/_c3X6ShZ1"
+        }
+      ]
+    },
+    {
+      "category": "키보드·마우스·게임패드",
+      "name": "NYXI Hyperion 3 Ultra 조이콘",
+      "offers": [
+        {
+          "video_id": "QLkBL_QYheE",
+          "time": "14:37",
+          "price": "$66.21(코드 적용, 카드 할인 전)",
+          "code": "MUPUNG016",
+          "option": "닌텐도 스위치 2용",
+          "code_note": "Handle and bag 옵션·선착순 100개",
+          "url": "https://s.click.aliexpress.com/e/_c3BrrDl9"
+        },
+        {
+          "video_id": "nEGFpIsBpeg",
+          "time": "08:39",
+          "price": "$57.59(코드 적용)",
+          "code": "FREEJEY12",
+          "option": "Handle",
+          "code_note": "$13 할인·선착순 30개",
+          "url": "https://s.click.aliexpress.com/e/_c2RGaK6T"
         }
       ]
     },
@@ -8075,6 +8184,15 @@
           "code": "BLAB15",
           "option": "블랙",
           "code_note": "$22 할인·선착순 300개"
+        },
+        {
+          "video_id": "nEGFpIsBpeg",
+          "time": "06:06",
+          "price": "$80.33(코드 적용, 카드 할인 전)",
+          "code": "FREEJEY8",
+          "option": "블랙·라이트 그레이",
+          "code_note": "$22 할인·색상별 선착순 20개",
+          "url": "https://s.click.aliexpress.com/e/_c3XS2uCB"
         }
       ]
     },
